@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    padding: 0px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: #0C1728;
+}
+.container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #15273F;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    width: 290px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border-radius: 7px;
+    box-shadow: 10px 10px 30px #011235;
+}
+.container:hover {
+    box-shadow: 10px 10px 30px #03303d;
+}
+.pic {
+    margin-top: 0px;
+    background-image: url('image-equilibrium.webp');
+    height: 250px;
+    width: 250px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.pic:hover {
+    cursor: pointer;
+    background-image: linear-gradient(rgba(27, 239, 246, 0.2), rgba(27, 239, 246, 0.2)), url(image-equilibrium.webp);
+}
+.line_container {
+    display: flex;
+    justify-content: space-around;
+}
+.line {
+    background-color: aliceblue;
+    height: 1px;
+    width: 250px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+
+}
+.pic {
+    text-align: center;
+}
+.created {
+    width: 300px;
+    height: 70px;
+    margin: 0px 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: "Times New Roman", serif;
+    font-size: 16px;
+    color: #000000;
+}
+.created>p {
+    color: rgb(113, 145, 194);
+}
+.name {
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+p {
+    margin: 0px;
+    color: azure
+}
+.the_third_line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+.pic_two {
+    background-image: url(image-avatar.png);
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 25px;
+    margin-left: 20px;
+    border-style: solid;
+    border-color: aquamarine;
+    border-radius: 50%;
+}
+.fh_pic_one {
+    background-image: url(icon-ethereum.svg);
+    height: 18px;
+    width: 18px;
+    background-repeat: no-repeat;
+}
+.fh_pic_two {
+    background-image: url(icon-clock.svg);
+    height: 18px;
+    width: 18px;
+    background-repeat: no-repeat;
+}
+.First_half {
+    display: flex;
+    color: rgb(20, 221, 232);
+}
+.First_half>p {
+    color: rgb(20, 221, 232);
+}
+.Second_half {
+    display: flex;
+}
+.anoying_line {
+    margin-top: 10px;
+    color: rgb(113, 145, 194);
+    margin-bottom: 20px;
+}
+span {
+    color: whitesmoke;
+}
+span:hover {
+    color: rgb(20, 221, 232);
+    cursor: pointer;}
